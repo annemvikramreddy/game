@@ -1,0 +1,58 @@
+.text {
+    margin: 15px;
+    text-align: center;
+}
+
+.block {
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head {
+    font-size: 24px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: orange;
+    margin-left: 15px;
+}
+
+.row {
+    width: 500px;
+    font-size: 30px;
+}
+
+.col {
+    width: 50px;
+    height: 50px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    background-color: #8da8d9;
+    cursor: pointer;
+    align-items: center;
+}
+
+.red.hidden {
+    background-color: red;
+
+}
+
+.paragraph {
+    color: orange;
+    font-size: 24px;
+}
+
+.over {
+    background-color: red;
+}
+
+@media (max-width:576px) {
+    .row {
+        width: 250px;
+    }
+}
